@@ -41,7 +41,7 @@ print(caption_text)
 ```
 
 ## Training data
-We used the Flickr8k Hindi Dataset, which is the translated version of the original Flickr8k Dataset, available on [Kaggle]("https://www.kaggle.com/bhushanpatilnew/hindi-caption") to train the model.
+We used the Flickr8k Hindi Dataset, which is the translated version of the original Flickr8k Dataset, available on [Kaggle](https://www.kaggle.com/bhushanpatilnew/hindi-caption) to train the model.
 
 ## Training procedure
 This model was trained during HuggingFace course community week, organized by Huggingface. The training was done on Kaggle GPU.
