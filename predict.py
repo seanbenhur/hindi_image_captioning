@@ -19,12 +19,11 @@ feature_extractor = ViTFeatureExtractor.from_pretrained(encoder_checkpoint)
 tokenizer = AutoTokenizer.from_pretrained(decoder_checkpoint)
 model = VisionEncoderDecoderModel.from_pretrained(model_checkpoint).to(device)
 
-# Inference
-sample = feature_extractor(image, return_tensors="pt").pixel_values.to(device)
 
 
-def predict(sample):
+def predict(image):
     clean_text = lambda x: x.replace("<|endoftext|>", "").split("\n")[0]
+    sample = feature_extractor(image, return_tensors="pt").pixel_values.to(device) Inference
     caption_ids = model.generate(sample, max_length=50)[0]
     caption_text = clean_text(tokenizer.decode(caption_ids))
     return caption_text
