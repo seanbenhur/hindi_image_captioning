@@ -4,7 +4,7 @@
 
 This is an encoder-decoder image captioning model made with [VIT](https://huggingface.co/google/vit-base-patch16-224-in21k) encoder and [GPT2-Hindi](https://huggingface.co/surajp/gpt2-hindi) as a decoder. This is a first attempt at using ViT + GPT2-Hindi for image captioning task. We used the Flickr8k Hindi Dataset available on kaggle to train the model.
 
-This model was trained using HuggingFace course community week, organized by Huggingface.
+This model was trained using HuggingFace course community week, organized by Huggingface. The pretrained weights are available [here](https://huggingface.co/team-indain-image-caption/hindi-image-captioning)
 
 ## How to use
 
@@ -41,7 +41,7 @@ print(caption_text)
 ```
 
 ## Training data
-We used the Flickr8k Hindi Dataset, which is the translated version of the original Flickr8k Dataset, available on Kaggle to train the model.
+We used the Flickr8k Hindi Dataset, which is the translated version of the original Flickr8k Dataset, available on [Kaggle]("https://www.kaggle.com/bhushanpatilnew/hindi-caption") to train the model.
 
 ## Training procedure
 This model was trained during HuggingFace course community week, organized by Huggingface. The training was done on Kaggle GPU.
