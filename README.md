@@ -2,7 +2,7 @@
 
 [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/team-indain-image-caption/Hindi-image-captioning)
 
-This is an encoder-decoder image captioning model made with [VIT](https://huggingface.co/google/vit-base-patch16-224-in21k) encoder and [GPT2-Hindi](https://huggingface.co/surajp/gpt2-hindi) as a decoder. This is a first attempt at using ViT + GPT2-Hindi for image captioning task. We used the Flickr8k Hindi Dataset available on kaggle to train the model.
+This is an encoder-decoder image captioning model made with [VIT](https://huggingface.co/google/vit-base-patch16-224-in21k) encoder and [GPT2-Hindi](https://huggingface.co/surajp/gpt2-hindi) as a decoder. This is a first attempt at using ViT + GPT2-Hindi for a Hindi image captioning task. We used the Flickr8k Hindi Dataset available on kaggle to train the model.
 
 This model was trained using HuggingFace course community week, organized by Huggingface. The pretrained weights are available [here](https://huggingface.co/team-indain-image-caption/hindi-image-captioning)
 
