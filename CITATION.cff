@@ -1,0 +1,14 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: Neural Transformers for Hindi Image Captioning
+message: 'If you use this software, please cite it as below.'
+type: software
+authors:
+  - given-names: Sean Benhur
+    email: seanbenhur@gmail.com
+    orcid: 'https://orcid.org/0000-0002-8022-1668'
+    affiliation: PSG College of Arts and Science
+  - given-names: Herumb Shandliya
+    affiliation: Jaypee Institute of Information Technology
