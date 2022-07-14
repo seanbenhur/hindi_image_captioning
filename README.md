@@ -46,7 +46,7 @@ We used the Flickr8k Hindi Dataset, which is the translated version of the origi
 ## Training procedure
 This model was trained during HuggingFace course community week, organized by Huggingface. The training was done on Kaggle GPU.
 
-## Results
+## Evaluation Results
 
 Due to longer inference time, we sampled around 3000 comments from the test dataset and computed METEOR and BLEU scores.
 
