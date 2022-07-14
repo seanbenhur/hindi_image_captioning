@@ -21,8 +21,8 @@ if torch.cuda.is_available():
 else:
     device = 'cpu'
 
-url = 'https://shorturl.at/fvxEQ'
-image = Image.open(requests.get(url, stream=True).raw)
+image_path = 'sample.jpg'
+image = Image.open(image_path)
 
 encoder_checkpoint = 'google/vit-base-patch16-224'
 decoder_checkpoint = 'surajp/gpt2-hindi'
@@ -46,10 +46,13 @@ We used the Flickr8k Hindi Dataset, which is the translated version of the origi
 ## Training procedure
 This model was trained during HuggingFace course community week, organized by Huggingface. The training was done on Kaggle GPU.
 
-## Training Parameters
-- epochs = 8,
-- batch_size = 8,
-- Mixed Precision Enabled
+## Results
+
+Due to longer inference time, we sampled around 3000 comments from the test dataset and computed METEOR and BLEU scores.
+
+- BLEU - 0.137
+- METEOR - 0.320
+
 
 ## Team Members
 - [Sean Benhur](https://www.linkedin.com/in/seanbenhur/)
